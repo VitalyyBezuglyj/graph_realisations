@@ -2,8 +2,6 @@
 #ifndef GRAPH_REALIZATIONS_1_I_GRAPH_H
 #define GRAPH_REALIZATIONS_1_I_GRAPH_H
 
-#endif //GRAPH_REALIZATIONS_1_I_GRAPH_H
-
 #include <iostream>
 #include <vector>
 
@@ -24,3 +22,4 @@ struct I_Graph {
 	virtual void get_next_vertices(int vertex, v_int& vertices) const = 0;
 	virtual void get_prev_vertices(int vertex, v_int& vertices) const = 0;
 };
+#endif //GRAPH_REALIZATIONS_1_I_GRAPH_H
